@@ -1,3 +1,3 @@
-# silk-gradle-template
+# H2SO
 
-Click 'Use this template' to create a new kotlin fabric mod with the [silk api](https://github.com/silkMC/silk) included.
+Fabric utilities we use for easing the development of our mods.

@@ -1,12 +1,11 @@
 val javaVersion = 17
-val silkVersion = "1.10.0"
 
 plugins {
     kotlin("jvm") version "1.8.22"
     id("fabric-loom") version "1.1-SNAPSHOT"
 }
 
-group = "org.example"
+group = "de.hglabor"
 version = "1.0.0"
 
 repositories {
@@ -19,8 +18,6 @@ dependencies {
     modImplementation("net.fabricmc:fabric-loader:0.14.21")
     modImplementation("net.fabricmc.fabric-api:fabric-api:0.83.1+1.20.1")
     modImplementation("net.fabricmc:fabric-language-kotlin:1.9.5+kotlin.1.8.22")
-
-    modImplementation("net.silkmc:silk-core:$silkVersion")
 }
 
 tasks {
